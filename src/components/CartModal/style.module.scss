@@ -9,9 +9,15 @@
     align-items: center;
     justify-content: center;
 
-    .modalBox{
-        border-radius: 0.3125rem 0.3125rem 0 0;
-        background: var(--grey-000);
+}
+.modalBox{
+    
+    border-radius: 0.3125rem 0.3125rem 0 0;
+    background: var(--grey-000);
+    width: 15rem;
+
+    @media (min-width: 360px) {
+        width: 30rem;
     }
 }
 
@@ -21,20 +27,43 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    height: 5.375rem;
+    border-radius: 0.3125rem 0.3125rem 0 0;
+    padding: 0.8125rem 1.375rem 0.8125rem 1.375rem;
+
+    @media (min-width: 360px) {
+        
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     height: 3.375rem;
     border-radius: 0.3125rem 0.3125rem 0 0;
     padding: 0.8125rem 1.375rem 0.8125rem 1.375rem;
+    }
 
 }
 
 .heading4{
-    width: 21.6875rem;
+    width: 10.6875rem;
     height: 1.75rem;
     font-family: var(--font-primary);
     font-weight: 700;
     font-style: 1.125rem;
     line-height: 1.75rem;
     color: #FFFFFF;
+
+    @media (min-width: 414px) {
+        width: 21.6875rem;
+        height: 1.75rem;
+        font-family: var(--font-primary);
+        font-weight: 700;
+        font-style: 1.125rem;
+        line-height: 1.75rem;
+        color: #FFFFFF;
+     
+        }
     
 }
 
@@ -50,6 +79,18 @@
     border-top: 0.125rem solid var(--grey-100);
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
+
+    @media (min-width: 414px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 0.125rem solid var(--grey-100);
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+     
+        }
+
+    
 }
 
 .listProducts {
