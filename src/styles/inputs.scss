@@ -1,0 +1,14 @@
+.input{
+    width: 80%;
+    height: 3.75rem;
+    border: transparent;
+
+    @media (min-width: 360px) {
+        width: 13rem;
+        height: 3.75rem;
+        border: transparent;
+        
+
+    }
+   
+}
